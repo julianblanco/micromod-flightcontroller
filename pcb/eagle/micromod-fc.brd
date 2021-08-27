@@ -1746,7 +1746,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.4182" y="16.507509375" size="1.27211875" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="None" x="32.5" y="12" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SM04B-GHS-TB(LF)(SN)-/?ref=eda" x="32.5" y="12" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="36.50248125" y="16.502790625" size="1.270790625" layer="28" rot="MR270"/>
 </element>
 <element name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="12.75" y="19.25" smashed="yes">
 <attribute name="NAME" x="11.48" y="20.647" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -2068,6 +2067,8 @@ design rules under a new name.</description>
 <wire x1="30.0054" y1="21.25" x2="30.0054" y2="20.9744" width="0.1524" layer="1"/>
 <wire x1="30.0054" y1="20.9744" x2="30" y2="20.969" width="0.1524" layer="1"/>
 <wire x1="30.215" y1="20.535" x2="29.75" y2="21" width="0.1524" layer="16"/>
+<wire x1="32.26" y1="28.74" x2="32.1876" y2="28.74" width="0.1524" layer="1"/>
+<wire x1="32.1876" y1="28.74" x2="32.0526" y2="28.875" width="0.1524" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="MEAS" pad="2"/>
@@ -2785,10 +2786,7 @@ design rules under a new name.</description>
 <wire x1="34.5948" y1="20.58325" x2="34.5948" y2="25.86125" width="0.1524" layer="16"/>
 <wire x1="33.40205" y1="19.8932" x2="33.90475" y2="19.8932" width="0.1524" layer="16"/>
 <wire x1="32.03505" y1="19.8932" x2="33.40205" y2="19.8932" width="0.1524" layer="16"/>
-<wire x1="34.5186" y1="25.8296875" x2="33.6846875" y2="26.6636" width="0.1524" layer="16"/>
 <wire x1="28.8416" y1="16.69975" x2="32.03505" y2="19.8932" width="0.1524" layer="16"/>
-<wire x1="33.6846875" y1="26.6636" x2="32.535" y2="26.6636" width="0.1524" layer="16"/>
-<wire x1="32.535" y1="26.6636" x2="30.4486" y2="28.75" width="0.1524" layer="16"/>
 <wire x1="33.90475" y1="19.8932" x2="34.5186" y2="20.50705" width="0.1524" layer="16"/>
 <wire x1="34.5186" y1="20.50705" x2="34.5186" y2="25.8296875" width="0.1524" layer="16"/>
 <wire x1="28.75" y1="17.25" x2="28.75" y2="5.5" width="0.1524" layer="16"/>
